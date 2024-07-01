@@ -4,25 +4,15 @@
   box-sizing: border-box;
 }
 // Chatbot
+body{
+  line-height: 1;
+      font-family: var(--font-menu);
+      background: #fff;
+      padding: 0px;
+      margin: 0px;
+      height: 100%;
+}
 
-.chatbotRobort{
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  z-index: 999999;
-  bottom: 20px;
-  margin-bottom: 20px;
-  right: 20px;
-  .img-borFixed{
-    position: relative;
-    border-radius: 50%;
-    right: 0;
-    bottom: 0;
-    cursor: pointer;
-    width: 55px;
-    height: 55px;
-  }
   .company-chatWave{
     position: absolute;
     text-align: center;
@@ -67,26 +57,6 @@
         opacity: 1;
     }
   }
-  .chatBlock{
-    position: fixed;
-    border: none;
-    background: none;
-    z-index: 999999;
-    width: 360px;
-    bottom: 20px;
-    margin-bottom: 20px;
-    right: 20px;
-    height: 80%;
-    border-radius: 3px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
-    .chatBlock-headerSub{
-      line-height: 1;
-      font-family: var(--font-menu);
-      background: #fff;
-      padding: 0px;
-      margin: 0px;
-      height: 100%;
-    }
     .chatBlock-inner{
       padding: 59px 0 0 0px;
       margin: 0px;
@@ -177,7 +147,7 @@
       color: #282628;
       outline: 0;
   }
-    }
+    
     .chatbot-searcher{
       position: absolute;
       bottom: 20px;
@@ -207,7 +177,7 @@
       }
     }
     
-}
+
 .sendBtnCover{
   background: #3352ed;
   outline: none;

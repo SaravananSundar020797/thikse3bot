@@ -4,26 +4,16 @@
   box-sizing: border-box;
 }
 
-.chatbotRobort {
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  z-index: 999999;
-  bottom: 20px;
-  margin-bottom: 20px;
-  right: 20px;
+body {
+  line-height: 1;
+  font-family: var(--font-menu);
+  background: #fff;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
 }
-.chatbotRobort .img-borFixed {
-  position: relative;
-  border-radius: 50%;
-  right: 0;
-  bottom: 0;
-  cursor: pointer;
-  width: 55px;
-  height: 55px;
-}
-.chatbotRobort .company-chatWave {
+
+.company-chatWave {
   position: absolute;
   text-align: center;
   top: 0;
@@ -37,7 +27,8 @@
   pointer-events: none;
   animation: chatWave 2s linear infinite;
 }
-.chatbotRobort .company-chatBoard {
+
+.company-chatBoard {
   width: 174px;
   max-width: max-content;
   padding: 12px 22px 12px 12px;
@@ -55,7 +46,7 @@
   right: 60px;
   transition: opacity 0.5s ease, height 0.5s ease;
 }
-.chatbotRobort .company-chatBoard .thikse-close-msg {
+.company-chatBoard .thikse-close-msg {
   position: absolute;
   right: 5px;
   top: -4px;
@@ -67,33 +58,13 @@
   color: #24272c;
   opacity: 1;
 }
-.chatbotRobort .chatBlock {
-  position: fixed;
-  border: none;
-  background: none;
-  z-index: 999999;
-  width: 360px;
-  bottom: 20px;
-  margin-bottom: 20px;
-  right: 20px;
-  height: 80%;
-  border-radius: 3px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
-}
-.chatbotRobort .chatBlock .chatBlock-headerSub {
-  line-height: 1;
-  font-family: var(--font-menu);
-  background: #fff;
-  padding: 0px;
-  margin: 0px;
-  height: 100%;
-}
-.chatbotRobort .chatBlock .chatBlock-inner {
+
+.chatBlock-inner {
   padding: 59px 0 0 0px;
   margin: 0px;
   min-height: 100%;
 }
-.chatbotRobort .chatBlock .chatBlock-inner .chatBlock-header {
+.chatBlock-inner .chatBlock-header {
   -webkit-box-shadow: 0 0.5px 9px 3px rgba(156, 156, 156, 0.2);
   box-shadow: 0 0.5px 9px 3px rgba(156, 156, 156, 0.2);
   width: 100%;
@@ -107,16 +78,16 @@
   left: 0;
   z-index: 999999;
 }
-.chatbotRobort .chatBlock .chatBlock-inner .chatBlock-header .chatBlock-logoImg {
+.chatBlock-inner .chatBlock-header .chatBlock-logoImg {
   display: inline-flex;
   align-items: center;
 }
-.chatbotRobort .chatBlock .chatBlock-inner .chatBlock-header .chatBlock-logoImg img {
+.chatBlock-inner .chatBlock-header .chatBlock-logoImg img {
   max-width: 205px;
   max-height: 60px;
   height: auto;
 }
-.chatbotRobort .chatBlock .chatBlock-inner .chatBot-logo {
+.chatBlock-inner .chatBot-logo {
   outline: none !important;
   transition: all 300ms linear;
   -moz-transition: all 300ms linear;
@@ -126,13 +97,13 @@
   color: #282628;
   outline: 0;
 }
-.chatbotRobort .chatBlock .chatBlock-inner .right-close {
+.chatBlock-inner .right-close {
   display: inline-flex;
   margin-left: 10px;
   height: 100%;
   gap: 15px;
 }
-.chatbotRobort .chatBlock .chatBlock-inner .right-close a {
+.chatBlock-inner .right-close a {
   display: inline-flex;
   width: 20px;
   height: 20px;
@@ -142,30 +113,32 @@
   color: #000;
   text-decoration: none;
 }
-.chatbotRobort .chatBlock .chatBlock-inner .right-close i {
+.chatBlock-inner .right-close i {
   font-size: 22px;
 }
-.chatbotRobort .chatBlock .chatbot-circle .user-input {
+
+.chatbot-circle .user-input {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.chatbotRobort .chatBlock .chatbot-circle .user-input label {
+.chatbot-circle .user-input label {
   text-wrap: nowrap;
   font-family: var(--font-menu);
   font-size: 18px;
   font-weight: 400;
 }
-.chatbotRobort .chatBlock .chatbot-circle .user-input select {
+.chatbot-circle .user-input select {
   height: 40px;
   border-radius: 50px;
   width: 100%;
   padding: 0 10px;
 }
-.chatbotRobort .chatBlock .chatbot-circle .bot-message {
+.chatbot-circle .bot-message {
   text-align: right;
 }
-.chatbotRobort .chatBlock a {
+
+a {
   outline: none !important;
   transition: all 300ms linear;
   -moz-transition: all 300ms linear;
@@ -175,7 +148,8 @@
   color: #282628;
   outline: 0;
 }
-.chatbotRobort .chatbot-searcher {
+
+.chatbot-searcher {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -184,7 +158,7 @@
   padding: 0 20px;
   z-index: 5;
 }
-.chatbotRobort .chatbot-searcher .chatbot-searcherSub {
+.chatbot-searcher .chatbot-searcherSub {
   position: relative;
   display: flex;
   width: 100%;
@@ -193,7 +167,7 @@
   background: #fff;
   border-radius: 25px;
 }
-.chatbotRobort .chatbot-searcher .search-input {
+.chatbot-searcher .search-input {
   width: 100%;
   height: 50px;
   border-radius: 100px;
