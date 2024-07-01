@@ -13,9 +13,9 @@ nltk.download('punkt')
 
 # Define the corpus and responses
 corpus = [
-    'Hi there!',
+    'Hi there! hi helo hello hii',
     'How are you?',
-    'what is bot name?',
+    'What is your name?',
     'Can you help me?',
     'I want your contact details.',
     'Where is your office located?',
@@ -48,7 +48,7 @@ responses = [
 
 # Define corpus for drill-down responses
 career_corpus = [
-    'What career opportunities are available?',
+    'What career opportunities like IT, Non-IT, Data Entry, full stack developer, Front-End, Back-End, AI Developer, Python, JavaScript, HR, Digital Marketing',
     'IT, Non-IT, Data Entry, full stack developer, Front-End, Back-End, AI Developer, Python, JavaScript, HR, Digital Marketing',
     'How can I apply for a job?',
     'Do you offer internships?',
@@ -65,28 +65,23 @@ organization_corpus = [
     'what are the service Do you provide ',
     'what is organization name',
     'what is your company name',
-    'Who is your co-founder?',
-    'co-founder name',
-    'who is your Vice President',
-    'VP name',
+    'your co-founder name?',
+    'your Vice President VP name',
     'Tell me more about your organization.',
-    'Who are the key people in your organization?',
+    'Who are founder ceo in your organization?',
     'What are the values of your organization?',
 ]
 
 organization_responses = [
-    'We Provide various services:\nGen AI Solution\nApp Development\nWeb Development\nCyber Security Services\nDigital Marketing Solutions\nNon IT Services',
+    'We Provide various services: Gen AI Solution\nApp Development\nWeb Development\nCyber Security Services\nDigital Marketing Solutions\nNon IT Services',
     'Our Organization name is "Thikse Software Solution PVT LTD"',
     'Our Organization name is "Thikse Software Solution PVT LTD"',
-    "Our Co-Founder is Mr. Shiva\nAs a co-founder of Thikse Software Solutions, I drive our vision forward by fostering innovation and collaboration. I spearhead strategic initiatives, nurture our team's talents, and cultivate a culture of excellence. Together with my co-founders, I am passionate about delivering exceptional solutions to our clients.",
-    "Our Co-Founder is Mr. Shiva\nAs a co-founder of Thikse Software Solutions, I drive our vision forward by fostering innovation and collaboration. I spearhead strategic initiatives, nurture our team's talents, and cultivate a culture of excellence. Together with my co-founders, I am passionate about delivering exceptional solutions to our clients.",
-    "Our Vice President is Mrs. Malavika\nAs the Chief Financial Officer, I prioritize my responsibility by placing significant value on the engagement of our people and fostering a motivating environment. I actively support my leadership team in their aspirations and endeavors to achieve targets through effective management of funds and transactions.",
-    "Our Vice President is Mrs. Malavika\nAs the Chief Financial Officer, I prioritize my responsibility by placing significant value on the engagement of our people and fostering a motivating environment. I actively support my leadership team in their aspirations and endeavors to achieve targets through effective management of funds and transactions.",
-    'Our Mission: At Thikse Software Solutions, we\'re on a mission to empower talent and exceed client expectations. By championing fresh perspectives and securing exciting projects, we\'re building a dynamic community where innovation flourishes and success is inevitable.\n\nOur Vision: At Thikse Software Solutions, we prioritize quality and timely delivery while fostering our team\'s growth. Our commitment to excellence extends beyond projects—we\'re constantly innovating, expanding, and improving. Join us in creating a future where success knows no bounds.',
-    'Our key people include our founder and director Mr. Krishnakanth, along with other talented professionals.',
+    "Our Co-Founder is Mr.Shiva\nAs a co-founder of Thikse Software Solutions, I drive our vision forward by fostering innovation and collaboration. I spearhead strategic initiatives, nurture our team's talents, and cultivate a culture of excellence. Together with my co-founders, I am passionate about delivering exceptional solutions to our clients.",
+    "Our Vice President is Mrs.Malavika\nAs the Chief Financial Officer, I prioritize my responsibility by placing significant value on the engagement of our people and fostering a motivating environment. I actively support my leadership team in their aspirations and endeavors to achieve targets through effective management of funds and transactions.",
+    'Our Mission: At Thikse Software Solutions, we\'re on a mission to empower talent and exceed client expectations. By championing fresh perspectives and securing exciting projects, we\'re building a dynamic community where innovation flourishes and success is inevitable.\n Our Vision: At Thikse Software Solutions, we prioritize quality and timely delivery while fostering our team\'s growth. Our commitment to excellence extends beyond projects—we\'re constantly innovating, expanding, and improving. Join us in creating a future where success knows no bounds.',
+    'Our founder and director Mr.Krishnakanth, along with other talented professionals.',
     'Our values include integrity, teamwork, and customer satisfaction.',
 ]
-
 
 
 # Combine all corpora
